@@ -45,6 +45,11 @@
             bindings = <&kp LANG1>;
             key-positions = <18 19>;
         };
+
+        kanaoff {
+            bindings = <&kp LANG2>;
+            key-positions = <30 31>;
+        };
     };
 
     macros {
