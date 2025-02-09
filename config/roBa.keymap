@@ -31,11 +31,6 @@
             key-positions = <11 10>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
@@ -77,10 +72,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp ESC                            &kp MINUS      &kp H        &kp J  &kp K      &kp L    &lt_to_layer_0 4 SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp DEL                            &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp RCTRL
+&kp Q             &kp W         &kp E         &kp R                 &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &lt 2 P
+&kp A             &kp S         &kp D         &kp F                 &kp G        &kp ESC                     &kp MINUS      &kp H        &kp J  &kp K      &kp L    &lt_to_layer_0 4 SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B        &kp DEL                     &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 TAB  &lt 2 SPACE  &lt_to_layer_0 3 GRAVE      &kp BACKSPACE  &lt 1 ENTER                             &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -97,10 +92,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp N7  &kp N8  &kp N9        &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp N4  &kp N5  &kp N6        &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp N1  &kp N2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &kp N0  &trans  &trans        &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp ASTRK  &kp N7  &kp N8  &kp N9        &kp PLUS                           &kp CARET         &kp AMPERSAND      &kp ASTRK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH  &kp N4  &kp N5  &kp N6        &kp MINUS   &trans         &trans  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&trans     &kp N1  &kp N2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&trans     &kp N0  &trans  &trans        &trans      &trans         &trans  &trans                                                                     &kp PIPE
             >;
         };
 
