@@ -18,32 +18,37 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+            key-positions = <6 7>;
         };
 
         kana {
             bindings = <&kp LANG1>;
-            key-positions = <18 19>;
+            key-positions = <13 12>;
         };
 
         kanaoff {
             bindings = <&kp LANG2>;
+            key-positions = <24 25>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <18 19>;
+        };
+
+        spece {
+            bindings = <&kp SPACE>;
             key-positions = <30 31>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        bs {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 20>;
+        };
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <7 8>;
         };
     };
 
